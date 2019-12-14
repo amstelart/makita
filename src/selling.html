@@ -1,0 +1,991 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
+  <meta name="theme-color" content="#4a96ff">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <title>Pro Стеллаж</title>
+  @@include('_include/page_head.html')
+</head>
+
+<body>
+  <!-- Sections -->
+  <main id="siteContent" class="site-content js-site-content">
+    <!-- Site header -->
+    <header id="siteHeader" class="site-header w-100 js-site-header">
+      <div class="top-bar bg-white js-top-bar fixed-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-7 col-sm-5 col-md-4 col-lg-3 align-items-center d-flex py-3 py-lg-4">
+              <a href="/">
+                <img src="/img/logo.png" alt="" class="site-header__logo img-fluid">
+              </a>
+              <div class="top-bar__side-line ml-auto d-none d-lg-block"></div>
+            </div>
+            <div class="col-12 col-lg-4 d-none d-lg-block py-lg-4 site-header__work-info">
+              <div>
+                <i class="fas fa-map-marker-alt mr-2 mt-0 text-center"></i><span>СПб,
+                  Боровая 47, офис 14</span>
+              </div>
+              <div>
+                <i class="fas fa-clock mr-2 mt-0 text-center"></i><span>Пн-Вс с 9:00
+                  до 21:00</span>
+              </div>
+            </div>
+            <div class="d-none d-sm-flex flex-column ml-auto p-3 p-lg-4 site-header__contacts-block w-auto">
+              <div class="site-header__tagline d-flex h5 mb-0">
+                <i class="fas fa-mobile text-danger mr-2"></i>
+                <div class="d-flex flex-column">
+                  <span>8 (981) <b>786-05-31</b></span>
+                  <span>info@stillage.pro</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-5 col-sm-3 col-lg-2 p-3 p-lg-4 d-flex align-items-center">
+              <button class="minicart bg-transparent border-0 position-relative d-flex p-0 js-popup-trigger ml-auto" type="button" data-mfp-src="#cartPopup" data-link="http://for.store/shelving-spb/MODX/modal-cart.html" data-container="body" data-toggle="popover" data-trigger="manual" data-placement="left" data-content="Получите скидку в 5% при заказе через корзину!">
+                <div class="mr-2">
+                  <i class="fas text-light fa-luggage-cart mr-2 fa-2x"></i>
+                  <span class="minicart__goods-count rounded-circle bg-danger p-1 text-white position-absolute">2</span>
+                </div>
+                <div class="d-flex flex-column minicart__text text-left">
+                  <b class="text-uppercase">Корзина</b>
+                  <span class="minicart__price">
+                    <b class="text-danger">35 000</b> ₽
+                  </span>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="site-header__nav">
+        <div class="container">
+          <hr class="m-0">
+        </div>
+        <div class="container position-relative d-flex">
+          <nav class="nav align-items-end text-uppercase font-weight-bold d-none d-lg-flex">
+            <li class="site-header__nav-item nav-item position-relative">
+              <a href="/catalog/" class="site-header__nav-link nav-link p-3 p-lg-4">Каталог
+                продукции</a>
+              <ul class="site-header__nav-subnav site-header__nav-subnav_level-2 position-absolute list-unstyled bg-white">
+                <li class="site-header__nav-item nav-item position-relative">
+                  <a href="/catalog/sellout.html" class="site-header__nav-link nav-link p-3 px-lg-4">Сейфы</a>
+                  <ul class="site-header__nav-subnav site-header__nav-subnav_level-3 position-absolute list-unstyled bg-white w-100">
+                    <li class="site-header__nav-item nav-item position-relative">
+                      <a href="/catalog/sellout.html" class="site-header__nav-link nav-link p-3 px-lg-4">Сейф
+                        1</a>
+                    </li>
+                    <li class="site-header__nav-item nav-item position-relative">
+                      <a href="/catalog/sellout.html" class="site-header__nav-link nav-link p-3 px-lg-4">Сейф
+                        2</a>
+                    </li>
+                </li>
+                <li class="site-header__nav-item nav-item position-relative">
+                  <a href="/catalog/sellout.html" class="site-header__nav-link nav-link p-3 px-lg-4">Сейф
+                    2</a>
+                </li>
+            </li>
+            <li class="site-header__nav-item nav-item position-relative">
+              <a href="/catalog/sellout.html" class="site-header__nav-link nav-link p-3 px-lg-4">Сейф 2</a>
+            </li>
+            </li>
+            <li class="site-header__nav-item nav-item position-relative">
+              <a href="/catalog/sellout.html" class="site-header__nav-link nav-link p-3 px-lg-4">Сейф 2</a>
+            </li>
+            </ul>
+            </li>
+            <li class="site-header__nav-item nav-item position-relative">
+              <a href="/catalog/sellout.html" class="site-header__nav-link nav-link p-3 px-lg-4">Офисные
+                сталлажи</a>
+              <ul class="site-header__nav-subnav site-header__nav-subnav_level-3 position-absolute list-unstyled bg-white w-100">
+                <li class="site-header__nav-item nav-item position-relative">
+                  <a href="/catalog/sellout.html" class="site-header__nav-link nav-link p-3 px-lg-4">Офисные
+                    сталлажи 1</a>
+                </li>
+                <li class="site-header__nav-item nav-item position-relative">
+                  <a href="/catalog/sellout.html" class="site-header__nav-link nav-link p-3 px-lg-4">Офисные
+                    сталлажи 2</a>
+                </li>
+              </ul>
+            </li>
+            </ul>
+            </li>
+            <li class="site-header__nav-item nav-item position-relative">
+              <a href="/catalog/sellout.html" class="site-header__nav-link nav-link p-3 p-lg-4">Распродажа</a>
+            </li>
+            <li class="site-header__nav-item nav-item position-relative">
+              <a href="/catalog/used.html" class="site-header__nav-link nav-link p-3 p-lg-4">БУ стеллажи</a>
+            </li>
+            <li class="site-header__nav-item nav-item position-relative">
+              <a href="/about.html" class="site-header__nav-link nav-link p-3 p-lg-4">О компании</a>
+            </li>
+            <li class="site-header__nav-item nav-item last">
+              <a href="/news/" class="site-header__nav-link nav-link p-3 p-lg-4">Новости</a>
+            </li>
+            <li class="site-header__nav-item nav-item last">
+              <a href="/contacts.html" class="site-header__nav-link nav-link p-3 p-lg-4">Контакты</a>
+            </li>
+          </nav>
+          <div class="site-header__work-info py-2 d-flex align-items-center d-lg-none">
+            <div class="mr-3 d-none d-sm-block">
+              <i class="fas fa-map-marker-alt mr-2 mt-0 text-center"></i><span>СПб,
+                Боровая 47, офис 14</span>
+            </div>
+            <div>
+              <i class="fas fa-clock mr-2 mt-0 text-center"></i><span>Пн-Вс с 9:00 до
+                21:00</span>
+            </div>
+            <!-- <button type="button" class="bg-transparent border-0 h3 js-mobile-nav-trigger mb-0 ml-auto py-0">
+              <i class="fas fa-equals"></i>
+            </button> -->
+          </div>
+          <form class="h-100 position-absolute search-form">
+            <input type="search" name="" id="" class="border-0 d-block h-100 ml-auto p-0 search-form__input p-0" placeholder="Поиск по сайту">
+            <button type="button" class="bg-transparent border-0 h-100 position-absolute search-form__button"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <!-- /Site header -->
+    <!-- Selling -->
+    <section class="sell-section sell-section--carousel">
+      <div class="container">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="row no-gutters">
+                <div class="col-md-6 swiper-slide__caption">
+                  <h2 class="font-weight-bold my-5">Превратим в гардеробную любой нестандартный “угол” в вашей квартире</h2>
+                  <ul class="styled-list mb-5">
+                    <li>В 2 раза дешевле, чем шкаф</li>
+                    <li>Разумное хранение по вашим потребностям</li>
+                    <li>Существенная экономия места в квартире</li>
+                  </ul>
+                  <p class="mb-4 mt-auto">Сомневаетесь?<br> Закажите БЕСПЛАТНЫЙ расчет и убедитесь, <br> что гардеробная система - это то, что вам нужно</p>
+                  <a href="#" class="btn mb-4 btn-outline-danger">Заказать расчет</a>
+                </div>
+                <div class="col-md-6 swiper-slide__img">
+                  <img src="img/slider-img-01.jpg" alt="" class="w-100 h-100 object-fit-cover">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="row no-gutters">
+                <div class="col-md-6 swiper-slide__caption">
+                  <h2 class="font-weight-bold my-5">Превратим в гардеробную любой нестандартный “угол” в вашей квартире</h2>
+                  <ul class="styled-list mb-5">
+                    <li>В 2 раза дешевле, чем шкаф</li>
+                    <li>Разумное хранение по вашим потребностям</li>
+                    <li>Существенная экономия места в квартире</li>
+                  </ul>
+                  <p class="mb-4 mt-auto">Сомневаетесь?<br> Закажите БЕСПЛАТНЫЙ расчет и убедитесь, <br> что гардеробная система - это то, что вам нужно</p>
+                  <a href="#" class="btn mb-4 btn-outline-danger">Заказать расчет</a>
+                </div>
+                <div class="col-md-6 swiper-slide__img">
+                  <img src="img/slider-img-01.jpg" alt="" class="w-100 h-100 object-fit-cover">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-nav">
+            <div class="swiper-nav__text">Листай и получи подарок</div>
+            <div class="swiper-nav__btns">
+              <div class="swiper-button-prev"><i class="fas fa-chevron-left"></i></div>
+              <div class="swiper-button-next"><i class="fas fa-chevron-right"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sell-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7 d-flex flex-column">
+            <p>Если вы всегда мечтали о вместительной гардеробной, в которой удобно хранить любые вещи - от вечерних платьев до сноубордов
+              или лыж, то ГАРДЕРОБНАЯ СИСТЕМА ТИТАН - GS - это то что вам нужно.
+              Не важно, какой у вас в квартире интерьер, и сколько места планируется на гардеробную, вы всегда можете трансформировать систему под свой вкус и существенно сэкономить место.
+            </p>
+            <p>
+              Судите сами!
+            </p>
+            <small class="mt-auto mb-4">Предоставляем САМУЮ НИЗКУЮ цену в городе!*
+              <br>*Пришлите нам выставленную смету, и мы сделаем предложение лучше!
+            </small>
+          </div>
+          <div class="col-lg-5">
+            <ul class="count-list">
+              <li>
+                <div>
+                  <h5>Эконмия средств</h5>
+                  <p>Стоимость в 2 раза дешевле, чем шкаф</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <h5>Удобство</h5>
+                  <p>Легко собирается и трансформируется</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <h5>Практичность</h5>
+                  <p>Отсутствие пыли, свободная циркуляция воздуха</p>
+                </div>
+              </li>
+              <li>
+                <div>
+                  <h5>Экономия пространства</h5>
+                  <p>Отсутствие лишних элементов, вместительность</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sell-section bg-danger">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <p>Важно то, что вы всегда можете докупить элементы и сделать вашу гардеробную еще более удобной, используя при этом минимум сверления</p>
+          </div>
+          <div class="col-lg-5">
+            <a href="#" class="btn btn-outline-light">Рассчитать бесплатно</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sell-section bg-light">
+      <header class="sell-section__header">
+        <div class="container">
+          <p>Узнайте подойдет ли вам гардеробная система ТИТАН - GS</p>
+          <h1 class="sell-section__heading">Почему вам стоит остановить свой выбор на нас?</h1>
+        </div>
+      </header>
+      <div class="container">
+        <div class="pricing-table">
+          <div class="pricing-table__top">
+            <div class="top-item">Гардеробная система ТИТАН - GS</div>
+            <div class="top-item">Другие гардеробные системы</div>
+          </div>
+          <div class="pricing-table__body">
+            <div class="pricing-table__part">
+              <div class="pricing-table__title">Стоимость</div>
+              <div class="body-items">
+                <div class="body-item">
+                  <p><span>2900 ₽*</span></p>
+                  <p>Нашли дешевле? <br>
+                    Сделаем еще более выгодное предложение!</p>
+                </div>
+                <div class="body-item">
+                  <p><span>3500 ₽</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="pricing-table__part">
+              <div class="pricing-table__title">Доставка</div>
+              <div class="body-items">
+                <div class="body-item">
+                  <p><span>500 ₽</span></p>
+                  <p>При заказе от 20 000 рублей - бесплатно</p>
+                </div>
+                <div class="body-item">
+                  <p>Гардеробная система ТИТАН - GS</p>
+                  <p><span>mini 1000 ₽</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="pricing-table__part">
+              <div class="pricing-table__title">Монтаж</div>
+              <div class="body-items">
+                <div class="body-item">
+                  <p><span>от 2000 ₽</span></p>
+                </div>
+                <div class="body-item">
+                  <p><span>от 5000 ₽</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="pricing-table__part">
+              <div class="pricing-table__title">Гарантия</div>
+              <div class="body-items">
+                <div class="body-item">
+                  <p><span>10 лет</span></p>
+                </div>
+                <div class="body-item">
+                  <p><span>1-5 лет</span></p>
+                </div>
+              </div>
+            </div>
+            <div class="pricing-table__part">
+              <div class="pricing-table__title">Дизайн - проект</div>
+              <div class="body-items">
+                <div class="body-item">
+                  <p><span>бесплатно</span></p>
+                </div>
+                <div class="body-item">
+                  <p><span>платно</span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pricing-table__footer">
+            <div class="footer-item">А самое главное, мы предоставляем <span>«Сервис под ключ»</span> - от звонка до монтажа. Вам с нами будет - очень комфортно. Вы точно останетесь довольны. </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sell-section" style="overflow: hidden;">
+      <header class="sell-section__header">
+        <div class="container">
+          <h1 class="sell-section__heading">Сотрудничать с нами легко и просто</h1>
+        </div>
+      </header>
+      <div class="container">
+        <div class="coop-line">
+          <div class="item-wrap">
+            <div class="item">
+              <h5>Обращение</h5>
+              <p>Вы оставляете заявку <br> или звоните нам по телефону</p>
+            </div>
+          </div>
+          <div class="item-wrap">
+            <div class="item">
+              <h5>Составление проекта и расчет</h5>
+              <p>Мы бесплатно делаем расчет<br> и проект </p>
+            </div>
+          </div>
+          <div class="item-wrap">
+            <div class="item">
+              <h5>Оплата/Доставка</h5>
+              <p>Вы оплачиваете систему и мы<br> осуществляем доставку</p>
+            </div>
+          </div>
+          <div class="item-wrap">
+            <div class="item">
+              <h5>Монтаж/Инструкция по сборке</h5>
+              <p>Мы осуществляем монтаж<br> либо даем вам инструкцию</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sell-section bg-light">
+      <header class="sell-section__header mb-5 pb-4">
+        <div class="container">
+          <h1 class="sell-section__heading">Всего 3 шага отделяют вас от вашей гардеробной системы</h1>
+        </div>
+      </header>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="step-item">
+              <div class="step-item__title">Шаг 1</div>
+              <div class="step-item__text">
+                Пора снять размеры помещения (длина и высота стен, губина пространства)
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="step-item">
+              <div class="step-item__title">Шаг 2</div>
+              <div class="step-item__text">
+                Необходимо подумать, зачем вам гардеробная система, и что вы будете в ней хранить (одежду, крупногабаритные вещи, документы и т.д.)
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="step-item">
+              <div class="step-item__title">Шаг 3</div>
+              <div class="step-item__text">
+                Самое время решить, какие комплектующие вам необходимы (типы и количество полок, корзин, перекладин для вешалок)
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="btn btn btn-outline-danger">Выбрать в каталоге</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sell-section">
+      <header class="sell-section__header">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center">
+            <h1 class="sell-section__heading mr-auto">Либо выберите одну из готовых систем</h1>
+            <a href="#" class="btn btn-outline-danger">Смотреть все</a>
+          </div>
+        </div>
+      </header>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="prod-card">
+              <div class="prod-card__img-wrap">
+                <a href="#">
+                  <img src="https://stillage.pro/assets/components/phpthumbof/cache/12197.970.7a111d3ba6b87f049bd57b136b71c8da.jpg" alt="">
+                </a>
+              </div>
+              <div class="prod-card__body">
+                <div class="prod-card__name"><a href="#">Гардеробная система ТИТАН - GS - 450S</a></div>
+                <ul class="prod-card__info">
+                  <li>Высота, мм 101</li>
+                  <li>Ширина, мм 31</li>
+                  <li>Глубина, мм 30</li>
+                </ul>
+                <div class="prod-card__action">
+                  <a href="#" class="prod-card__link">Хочу такую же</a>
+                  <div class="prod-card__price">3200 ₽</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="prod-card">
+              <div class="prod-card__img-wrap">
+                <a href="#">
+                  <img src="https://stillage.pro/assets/components/phpthumbof/cache/12197.970.7a111d3ba6b87f049bd57b136b71c8da.jpg" alt="">
+                </a>
+              </div>
+              <div class="prod-card__body">
+                <div class="prod-card__name"><a href="#">Гардеробная система ТИТАН - GS - 450S</a></div>
+                <ul class="prod-card__info">
+                  <li>Высота, мм 101</li>
+                  <li>Ширина, мм 31</li>
+                  <li>Глубина, мм 30</li>
+                </ul>
+                <div class="prod-card__action">
+                  <a href="#" class="prod-card__link">Хочу такую же</a>
+                  <div class="prod-card__price">3200 ₽</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="prod-card">
+              <div class="prod-card__img-wrap">
+                <a href="#">
+                  <img src="https://stillage.pro/assets/components/phpthumbof/cache/12197.970.7a111d3ba6b87f049bd57b136b71c8da.jpg" alt="">
+                </a>
+              </div>
+              <div class="prod-card__body">
+                <div class="prod-card__name"><a href="#">Гардеробная система ТИТАН - GS - 450S</a></div>
+                <ul class="prod-card__info">
+                  <li>Высота, мм 101</li>
+                  <li>Ширина, мм 31</li>
+                  <li>Глубина, мм 30</li>
+                </ul>
+                <div class="prod-card__action">
+                  <a href="#" class="prod-card__link">Хочу такую же</a>
+                  <div class="prod-card__price">3200 ₽</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="prod-card">
+              <div class="prod-card__img-wrap">
+                <a href="#">
+                  <img src="https://stillage.pro/assets/components/phpthumbof/cache/12197.970.7a111d3ba6b87f049bd57b136b71c8da.jpg" alt="">
+                </a>
+              </div>
+              <div class="prod-card__body">
+                <div class="prod-card__name"><a href="#">Гардеробная система ТИТАН - GS - 450S</a></div>
+                <ul class="prod-card__info">
+                  <li>Высота, мм 101</li>
+                  <li>Ширина, мм 31</li>
+                  <li>Глубина, мм 30</li>
+                </ul>
+                <div class="prod-card__action">
+                  <a href="#" class="prod-card__link">Хочу такую же</a>
+                  <div class="prod-card__price">3200 ₽</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sell-section bg-danger">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <h5 class="mb-4">Не знаете, что выбрать?</h5>
+            <p>Оставьте заявку, и наш менеджер рассчитает вам гардеробную <br>систему абсолютно бесплатно</p>
+          </div>
+          <div class="col-lg-5">
+            <a href="#" class="btn btn-outline-light">Оставить заявку</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sell-section">
+      <header class="sell-section__header">
+        <div class="container">
+          <h1 class="sell-section__heading">Отзывы</h1>
+        </div>
+      </header>
+      <div class="container">
+        <div class="tab">
+          <ul class="nav nav-tabs flex-nowrap mb-4" id="reviewsTab" role="tablist">
+            <li class="nav-item mb-0 mr-4">
+              <a class="nav-link position-relative py-md-3 px-md-4 border-0 rounded-0 text-uppercase font-weight-bold active" data-toggle="tab" href="#tab-vk" role="tab" aria-controls="vk" aria-selected="true">ВКонтакте</a>
+            </li>
+            <li class="nav-item mb-0 mr-4">
+              <a class="nav-link position-relative py-md-3 px-md-4 border-0 rounded-0 text-uppercase font-weight-bold" data-toggle="tab" href="#tab-fb" role="tab" aria-controls="fb" aria-selected="false">Facebook</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="reviewsTabContent">
+            <div class="tab-pane fade show active" id="tab-vk" role="tabpanel" aria-labelledby="vk-tab">
+              <div id="vk_comments">
+                <div style="background: #eee; height: 300px; padding: 30px;">Место для виджета</div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tab-fb" role="tabpanel" aria-labelledby="fb-tab">
+              <div class="fb-comments" data-href="https://stillage.pro/about.html" data-numposts="10" data-width="100%">
+                <div style="background: #eee; height: 300px; padding: 30px;">Место для виджета</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sell-section">
+      <header class="sell-section__header">
+        <div class="container">
+          <div class="d-flex flex-wrap align-items-center">
+            <h1 class="sell-section__heading mr-auto">Самое время собрать свою идеальную гардеробную систему</h1>
+            <div class="btn btn-outline-danger">Онлайн конструктор</div>
+          </div>
+        </div>
+      </header>
+      <div class="container">
+        <ul class="prod-filter">
+          <li class="prod-filter__item">
+            <a href="#" class="prod-filter__link active">Все детали</a>
+          </li>
+          <li class="prod-filter__item">
+            <a href="#" class="prod-filter__link">Гостинные</a>
+          </li>
+          <li class="prod-filter__item">
+            <a href="#" class="prod-filter__link">Детская</a>
+          </li>
+          <li class="prod-filter__item">
+            <a href="#" class="prod-filter__link">Гараж, мастерская</a>
+          </li>
+          <li class="prod-filter__item">
+            <a href="#" class="prod-filter__link">Кухни, кладовые</a>
+          </li>
+          <li class="prod-filter__item">
+            <a href="#" class="prod-filter__link">Прихожая</a>
+          </li>
+          <li class="prod-filter__item">
+            <a href="#" class="prod-filter__link">Спальни</a>
+          </li>
+          <li class="prod-filter__item">
+            <a href="#" class="prod-filter__link">Рабочее место</a>
+          </li>
+          <li class="prod-filter__item">
+            <a href="#" class="prod-filter__link">Ванная, прачечная</a>
+          </li>
+          <li class="prod-filter__item">
+            <a href="#" class="prod-filter__link">Дача и сад</a>
+          </li>
+        </ul>
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="prod-card">
+              <div class="prod-card__img-wrap">
+                <a href="#">
+                  <img src="https://stillage.pro/assets/components/phpthumbof/cache/12197.970.7a111d3ba6b87f049bd57b136b71c8da.jpg" alt="">
+                </a>
+              </div>
+              <div class="prod-card__body">
+                <div class="prod-card__name"><a href="#">Гардеробная система ТИТАН - GS - 450S</a></div>
+                <ul class="prod-card__info">
+                  <li>Высота, мм 101</li>
+                  <li>Ширина, мм 31</li>
+                  <li>Глубина, мм 30</li>
+                </ul>
+                <div class="prod-card__action">
+                  <a href="#" class="prod-card__link">Хочу такую же</a>
+                  <div class="prod-card__price">3200 ₽</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="prod-card">
+              <div class="prod-card__img-wrap">
+                <a href="#">
+                  <img src="https://stillage.pro/assets/components/phpthumbof/cache/12197.970.7a111d3ba6b87f049bd57b136b71c8da.jpg" alt="">
+                </a>
+              </div>
+              <div class="prod-card__body">
+                <div class="prod-card__name"><a href="#">Гардеробная система ТИТАН - GS - 450S</a></div>
+                <ul class="prod-card__info">
+                  <li>Высота, мм 101</li>
+                  <li>Ширина, мм 31</li>
+                  <li>Глубина, мм 30</li>
+                </ul>
+                <div class="prod-card__action">
+                  <a href="#" class="prod-card__link">Хочу такую же</a>
+                  <div class="prod-card__price">3200 ₽</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="prod-card">
+              <div class="prod-card__img-wrap">
+                <a href="#">
+                  <img src="https://stillage.pro/assets/components/phpthumbof/cache/12197.970.7a111d3ba6b87f049bd57b136b71c8da.jpg" alt="">
+                </a>
+              </div>
+              <div class="prod-card__body">
+                <div class="prod-card__name"><a href="#">Гардеробная система ТИТАН - GS - 450S</a></div>
+                <ul class="prod-card__info">
+                  <li>Высота, мм 101</li>
+                  <li>Ширина, мм 31</li>
+                  <li>Глубина, мм 30</li>
+                </ul>
+                <div class="prod-card__action">
+                  <a href="#" class="prod-card__link">Хочу такую же</a>
+                  <div class="prod-card__price">3200 ₽</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="prod-card">
+              <div class="prod-card__img-wrap">
+                <a href="#">
+                  <img src="https://stillage.pro/assets/components/phpthumbof/cache/12197.970.7a111d3ba6b87f049bd57b136b71c8da.jpg" alt="">
+                </a>
+              </div>
+              <div class="prod-card__body">
+                <div class="prod-card__name"><a href="#">Гардеробная система ТИТАН - GS - 450S</a></div>
+                <ul class="prod-card__info">
+                  <li>Высота, мм 101</li>
+                  <li>Ширина, мм 31</li>
+                  <li>Глубина, мм 30</li>
+                </ul>
+                <div class="prod-card__action">
+                  <a href="#" class="prod-card__link">Хочу такую же</a>
+                  <div class="prod-card__price">3200 ₽</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="prod-card">
+              <div class="prod-card__img-wrap">
+                <a href="#">
+                  <img src="https://stillage.pro/assets/components/phpthumbof/cache/12197.970.7a111d3ba6b87f049bd57b136b71c8da.jpg" alt="">
+                </a>
+              </div>
+              <div class="prod-card__body">
+                <div class="prod-card__name"><a href="#">Гардеробная система ТИТАН - GS - 450S</a></div>
+                <ul class="prod-card__info">
+                  <li>Высота, мм 101</li>
+                  <li>Ширина, мм 31</li>
+                  <li>Глубина, мм 30</li>
+                </ul>
+                <div class="prod-card__action">
+                  <a href="#" class="prod-card__link">Хочу такую же</a>
+                  <div class="prod-card__price">3200 ₽</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="prod-card">
+              <div class="prod-card__img-wrap">
+                <a href="#">
+                  <img src="https://stillage.pro/assets/components/phpthumbof/cache/12197.970.7a111d3ba6b87f049bd57b136b71c8da.jpg" alt="">
+                </a>
+              </div>
+              <div class="prod-card__body">
+                <div class="prod-card__name"><a href="#">Гардеробная система ТИТАН - GS - 450S</a></div>
+                <ul class="prod-card__info">
+                  <li>Высота, мм 101</li>
+                  <li>Ширина, мм 31</li>
+                  <li>Глубина, мм 30</li>
+                </ul>
+                <div class="prod-card__action">
+                  <a href="#" class="prod-card__link">Хочу такую же</a>
+                  <div class="prod-card__price">3200 ₽</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="prod-card">
+              <div class="prod-card__img-wrap">
+                <a href="#">
+                  <img src="https://stillage.pro/assets/components/phpthumbof/cache/12197.970.7a111d3ba6b87f049bd57b136b71c8da.jpg" alt="">
+                </a>
+              </div>
+              <div class="prod-card__body">
+                <div class="prod-card__name"><a href="#">Гардеробная система ТИТАН - GS - 450S</a></div>
+                <ul class="prod-card__info">
+                  <li>Высота, мм 101</li>
+                  <li>Ширина, мм 31</li>
+                  <li>Глубина, мм 30</li>
+                </ul>
+                <div class="prod-card__action">
+                  <a href="#" class="prod-card__link">Хочу такую же</a>
+                  <div class="prod-card__price">3200 ₽</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="prod-card">
+              <div class="prod-card__img-wrap">
+                <a href="#">
+                  <img src="https://stillage.pro/assets/components/phpthumbof/cache/12197.970.7a111d3ba6b87f049bd57b136b71c8da.jpg" alt="">
+                </a>
+              </div>
+              <div class="prod-card__body">
+                <div class="prod-card__name"><a href="#">Гардеробная система ТИТАН - GS - 450S</a></div>
+                <ul class="prod-card__info">
+                  <li>Высота, мм 101</li>
+                  <li>Ширина, мм 31</li>
+                  <li>Глубина, мм 30</li>
+                </ul>
+                <div class="prod-card__action">
+                  <a href="#" class="prod-card__link">Хочу такую же</a>
+                  <div class="prod-card__price">3200 ₽</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sell-section bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-7">
+            <h4 class="mb-4">Не откладывайте идеальную гардеробную на завтра, рассчитывайте ее уже сегодня и получите:</h4>
+            <ul class="styled-list mb-5">
+              <li>Скидку 5% на первый заказ</li>
+              <li>Дизайн проект в подарок</li>
+            </ul>
+            <p>и конечно,<br> самую выгодную цену во всем городе</p>
+          </div>
+          <div class="col-lg-5">
+            <div class="card rounded-0 border-0 shadow-sm mx-md-2 mx-lg-0">
+              <div class="card-body">
+                <h4 class="card-title mb-4 text-center">Заполните форму <br> обратной связи</h4>
+                <form action="#" method="post" class="form">
+                  <div class="form-group mb-3 w-100">
+                    <input type="text" class="form-control" placeholder="Имя">
+                  </div>
+                  <div class="form-group mb-3 w-100">
+                    <input type="tel" class="form-control" placeholder="Телефон">
+                  </div>
+                  <div class="form-group mb-3 w-100">
+                    <textarea class="form-control" placeholder="Ваш вопрос" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <div class="text-center">
+                    <button type="submit" class="btn btn-outline-danger">Отправить</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Selling -->
+    <!-- Map -->
+    <section class="position-relative">
+      <div class="yamap position-relative">
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Add70d2f4d02447698a7e9eff5c449d20ddda9190a3cf2d3fee698ef1d6b95deb&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=false"></script>
+      </div>
+    </section>
+    <!-- /Map -->
+    <!-- Site footer -->
+    <footer id="siteFooter" class="site-footer">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-7 col-sm-5 col-md-4 col-lg-3 align-items-center d-flex py-3 py-lg-4">
+            <a href="/">
+              <img src="/img/logo.png" alt="" class="site-header__logo img-fluid">
+            </a>
+            <div class="top-bar__side-line ml-auto d-none d-lg-block"></div>
+          </div>
+          <div class="col-12 col-lg-4 d-none d-lg-block py-lg-4 site-header__work-info">
+            <div>
+              <i class="fas fa-map-marker-alt mr-2 mt-0 text-center"></i><span>СПб, Боровая 47, офис 14</span>
+            </div>
+            <div>
+              <i class="fas fa-clock mr-2 mt-0 text-center"></i><span>Пн-Вс с 9:00 до 21:00</span>
+            </div>
+          </div>
+          <div class="d-none d-sm-flex flex-column ml-auto p-3 p-lg-4 site-header__contacts-block w-auto">
+            <div class="site-header__tagline d-flex h5 mb-0">
+              <i class="fas fa-mobile text-danger mr-2"></i>
+              <div class="d-flex flex-column">
+                <span>8 (981) <b>786-05-31</b></span>
+                <span>8 (800) <b>786-05-31</b></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-5 col-sm-2 col-lg-1 p-3 p-lg-4 d-flex align-items-center">
+            <button type="button" class="bg-transparent border-0 h3 js-mobile-nav-trigger mb-0 ml-auto py-0">
+              <i class="fas fa-equals"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="site-footer__copyblock py-2 py-md-3">
+        <p class="text-center mb-0 site-header__work-info">
+          Разработка сайта – <a href="https://evomedia.pro" title="Разработка адаптивных сайтов" class="text-danger">eUI</a>
+        </p>
+      </div> -->
+    </footer>
+    <!-- /Site footer -->
+  </main>
+  <!-- /Sections -->
+  <!-- Menu -->
+  <nav class="mobile-menu fixed-top h-100 p-4 bg-primary js-mobile-menu">
+    <div class="mb-2 mobile-menu__logo">
+      <a href="/" class="d-block">
+        <img src="/img/logo_light.png" alt="" class="img-fluid">
+      </a>
+    </div>
+    <ul class="mb-2 nav social">
+      <li class="nav-item">
+        <a class="nav-link social__link pl-0" href="https://vk.com/autoguruspb">
+          <i class="fab fa-vk"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link social__link" href="https://instagram.com/autoguruspb/">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link social__link" href="#">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link social__link" href="#">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    </ul>
+    <button type="button" class="mobile-menu__close btn-reset text-white position-absolute js-mobile-menu__close">
+      <i class="fas fa-times fa-2x"></i>
+    </button>
+    <ul class="p-0 list-unstyled text-uppercase font-weight-bold">
+      <li class="mobile-menu__item py-2">
+        <a class="mobile-menu__link py-2 w-100" href="/">Главная</a>
+      </li>
+      <li class="mobile-menu__item py-2">
+        <a class="mobile-menu__link py-2 w-100" href="/catalog/">Каталог продукции</a>
+      </li>
+      <li class="mobile-menu__item py-2">
+        <a class="mobile-menu__link py-2 w-100" href="#">Распродажа</a>
+      </li>
+      <li class="mobile-menu__item py-2">
+        <a class="mobile-menu__link py-2 w-100" href="#">БУ стеллажи</a>
+      </li>
+      <li class="mobile-menu__item py-2">
+        <a class="mobile-menu__link py-2 w-100" href="#">О компании</a>
+      </li>
+      <li class="mobile-menu__item py-2">
+        <a class="mobile-menu__link py-2 w-100" href="#">Новости</a>
+      </li>
+      <li class="mobile-menu__item py-2">
+        <a class="mobile-menu__link py-2 w-100" href="#">Контакты</a>
+      </li>
+    </ul>
+    <a href="mailto:zakaz@gbr-group.ru" class="h5 mb-0 mx-xl-auto ml-auto d-block mb-1">
+      <i class="fas fa-envelope"></i> konkis178@ya.ru
+    </a>
+    <div class="align-items-center d-none d-flex">
+      <a href="tel:+7 (981) 786-05-31" class="h5 mb-0 mr-3 text-white">+7 (981) 786-05-31</a>
+      <ul class="social nav">
+        <li class="nav-item">
+          <a class="nav-link social__link pl-0" href="viber://chat?number=79817860531">
+            <i class="fab fa-viber"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link social__link pl-0" href="tg://resolve?phone=79817860531">
+            <i class="fab fa-telegram"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link social__link pl-0 pr-0" href="https://api.whatsapp.com/send?phone=79817860531">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- /Menu -->
+  <!-- Call back popup -->
+  <div class="card popup border-0 popup_narrow mx-auto position-relative zoom-anim-dialog mfp-hide" id="callBackPopup">
+    <div class="card-body">
+      <h4 class="popup__title mb-3">Обратный звонок</h4>
+      <form action="#">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Имя">
+        </div>
+        <div class="form-group">
+          <input type="tel" class="form-control" placeholder="+7(999)-999-99-99">
+        </div>
+        <input type="hidden" name="subject" value="Консультация по [[*pagetitle]]">
+        <input type="hidden" name="options">
+        <input type="hidden" name="price">
+        <button class="btn btn-primary btn-block mb-3" type="submit">Отправить</button>
+        <p class="small mb-0 text-muted">Нажимая "Отправить", Вы соглашаетесь на обработку своих персональных данных.</p>
+      </form>
+    </div>
+  </div>
+  <!-- /Call back popup -->
+  <!-- Cart popup -->
+  <div class="card popup border-0 popup_mid popup-cart mx-auto position-relative zoom-anim-dialog mfp-hide" id="cartPopup">
+    <div class="card-body">
+      <h4 class="popup__title mb-3 font-weight-bold">Корзина</h4>
+      <div class="cart-item d-flex mb-3">
+        <div class="cart-item__thumb">
+          <img src="//placehold.it/50/50" alt="" class="img-fluid">
+        </div>
+        <div class="cart-item__descr mx-3">
+          <a href="#">
+            <h5 class="cart-item__title mb-0">Стеллаж STF 200x2000x1000</h5>
+          </a>
+          <span class="cart-item__price text-muted">
+            <span>35 000</span> ₽
+          </span>
+        </div>
+        <button class="cart-item__remove bg-transparent border-0 text-muted ml-auto" title="Удалить">
+          <i class="fas fa-trash"></i>
+        </button>
+      </div>
+      <hr>
+      <div class="d-flex align-items-center">
+        <span class="cart-item__total h2 font-weight-bold text-muted mr-3 mb-0">35 000 ₽</span>
+        <a href="/cart.html" class="btn btn-primary ml-auto">Оформить заказ</a>
+      </div>
+    </div>
+  </div>
+  <!-- /Cart popup -->
+  <!-- JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  @@include('_include/page_bottom.html')
+</body>
+
+</html>

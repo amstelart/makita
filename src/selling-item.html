@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
+  <meta name="theme-color" content="#4a96ff">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <title>Pro Стеллаж</title>
+  @@include('_include/page_head.html')
+</head>
+
+<body>
+  <!-- Sections -->
+  <main id="siteContent" class="site-content js-site-content">
+    <!-- Site header -->
+    <header id="siteHeader" class="site-header w-100 js-site-header">
+      <div class="top-bar bg-white js-top-bar fixed-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-7 col-sm-5 col-md-4 col-lg-3 align-items-center d-flex py-3 py-lg-4">
+              <a href="/">
+                <img src="/img/logo.png" alt="" class="site-header__logo img-fluid">
+              </a>
+              <div class="top-bar__side-line ml-auto d-none d-lg-block"></div>
+            </div>
+            <div class="col-12 col-lg-4 d-none d-lg-block py-lg-4 site-header__work-info">
+              <div>
+                <i class="fas fa-map-marker-alt mr-2 mt-0 text-center"></i><span>СПб,
+                  Боровая 47, офис 14</span>
+              </div>
+              <div>
+                <i class="fas fa-clock mr-2 mt-0 text-center"></i><span>Пн-Вс с 9:00
+                  до 21:00</span>
+              </div>
+            </div>
+            <div class="d-none d-sm-flex flex-column ml-auto p-3 p-lg-4 site-header__contacts-block w-auto">
+              <div class="site-header__tagline d-flex h5 mb-0">
+                <i class="fas fa-mobile text-danger mr-2"></i>
+                <div class="d-flex flex-column">
+                  <span>8 (981) <b>786-05-31</b></span>
+                  <span>info@stillage.pro</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-5 col-sm-3 col-lg-2 p-3 p-lg-4 d-flex align-items-center">
+              <button class="minicart bg-transparent border-0 position-relative d-flex p-0 js-popup-trigger ml-auto" type="button" data-mfp-src="#cartPopup" data-link="http://for.store/shelving-spb/MODX/modal-cart.html" data-container="body" data-toggle="popover" data-trigger="manual" data-placement="left" data-content="Получите скидку в 5% при заказе через корзину!">
+                <div class="mr-2">
+                  <i class="fas text-light fa-luggage-cart mr-2 fa-2x"></i>
+                  <span class="minicart__goods-count rounded-circle bg-danger p-1 text-white position-absolute">2</span>
+                </div>
+                <div class="d-flex flex-column minicart__text text-left">
+                  <b class="text-uppercase">Корзина</b>
+                  <span class="minicart__price">
+                    <b class="text-danger">35 000</b> ₽
+                  </span>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="site-header__nav">
+        <div class="container">
+          <hr class="m-0">
+        </div>
+        <div class="container position-relative d-flex">
+          <nav class="nav align-items-end text-uppercase font-weight-bold d-none d-lg-flex">
+            <li class="site-header__nav-item nav-item position-relative">
+              <a href="/catalog/" class="site-header__nav-link nav-link p-3 p-lg-4">Каталог
+                продукции</a>
+              <ul class="site-header__nav-subnav site-header__nav-subnav_level-2 position-absolute list-unstyled bg-white">
+                <li class="site-header__nav-item nav-item position-relative">
+                  <a href="/catalog/sellout.html" class="site-header__nav-link nav-link p-3 px-lg-4">Сейфы</a>
+                  <ul class="site-header__nav-subnav site-header__nav-subnav_level-3 position-absolute list-unstyled bg-white w-100">
+                    <li class="site-header__nav-item nav-item position-relative">
+                      <a href="/catalog/sellout.html" class="site-header__nav-link nav-link p-3 px-lg-4">Сейф
+                        1</a>
+                    </li>
+                    <li class="site-header__nav-item nav-item position-relative">
+                      <a href="/catalog/sellout.html" class="site-header__nav-link nav-link p-3 px-lg-4">Сейф
+                        2</a>
+                    </li>
+                </li>
+                <li class="site-header__nav-item nav-item position-relative">
+                  <a href="/catalog/sellout.html" class="site-header__nav-link nav-link p-3 px-lg-4">Сейф
+                    2</a>
+                </li>
+            </li>
+            <li class="site-header__nav-item nav-item position-relative">
+              <a href="/catalog/sellout.html" class="site-header__nav-link nav-link p-3 px-lg-4">Сейф 2</a>
+            </li>
+            </li>
+            <li class="site-header__nav-item nav-item position-relative">
+              <a href="/catalog/sellout.html" class="site-header__nav-link nav-link p-3 px-lg-4">Сейф 2</a>
+            </li>
+            </ul>
+            </li>
+            <li class="site-header__nav-item nav-item position-relative">
+              <a href="/catalog/sellout.html" class="site-header__nav-link nav-link p-3 px-lg-4">Офисные
+                сталлажи</a>
+              <ul class="site-header__nav-subnav site-header__nav-subnav_level-3 position-absolute list-unstyled bg-white w-100">
+                <li class="site-header__nav-item nav-item position-relative">
+                  <a href="/catalog/sellout.html" class="site-header__nav-link nav-link p-3 px-lg-4">Офисные
+                    сталлажи 1</a>
+                </li>
+                <li class="site-header__nav-item nav-item position-relative">
+                  <a href="/catalog/sellout.html" class="site-header__nav-link nav-link p-3 px-lg-4">Офисные
+                    сталлажи 2</a>
+                </li>
+              </ul>
+            </li>
+            </ul>
+            </li>
+            <li class="site-header__nav-item nav-item position-relative">
+              <a href="/catalog/sellout.html" class="site-header__nav-link nav-link p-3 p-lg-4">Распродажа</a>
+            </li>
+            <li class="site-header__nav-item nav-item position-relative">
+              <a href="/catalog/used.html" class="site-header__nav-link nav-link p-3 p-lg-4">БУ стеллажи</a>
+            </li>
+            <li class="site-header__nav-item nav-item position-relative">
+              <a href="/about.html" class="site-header__nav-link nav-link p-3 p-lg-4">О компании</a>
+            </li>
+            <li class="site-header__nav-item nav-item last">
+              <a href="/news/" class="site-header__nav-link nav-link p-3 p-lg-4">Новости</a>
+            </li>
+            <li class="site-header__nav-item nav-item last">
+              <a href="/contacts.html" class="site-header__nav-link nav-link p-3 p-lg-4">Контакты</a>
+            </li>
+          </nav>
+          <div class="site-header__work-info py-2 d-flex align-items-center d-lg-none">
+            <div class="mr-3 d-none d-sm-block">
+              <i class="fas fa-map-marker-alt mr-2 mt-0 text-center"></i><span>СПб,
+                Боровая 47, офис 14</span>
+            </div>
+            <div>
+              <i class="fas fa-clock mr-2 mt-0 text-center"></i><span>Пн-Вс с 9:00 до
+                21:00</span>
+            </div>
+            <!-- <button type="button" class="bg-transparent border-0 h3 js-mobile-nav-trigger mb-0 ml-auto py-0">
+              <i class="fas fa-equals"></i>
+            </button> -->
+          </div>
+          <form class="h-100 position-absolute search-form">
+            <input type="search" name="" id="" class="border-0 d-block h-100 ml-auto p-0 search-form__input p-0" placeholder="Поиск по сайту">
+            <button type="button" class="bg-transparent border-0 h-100 position-absolute search-form__button"><i class="fas fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <!-- /Site header -->
+
+    <!-- Selling -->
+    <article class="lp-section product" itemscope="" itemtype="http://schema.org/Product">
+      <header class="product__header">
+        <div class="container">
+          <div class="product__header-box">
+            <h1 class="product__header-heading text-uppercase text-left" itemprop="name">GS - 350S ГАРДЕРОБНАЯ СИСТЕМА ТИТАН</h1>
+            <div class="product__header-info in-stock">В наличии</div>
+          </div>
+        </div>
+      </header>
+      <div class="container">
+        <div class="row mb-md-5">
+          <div class="col-12 col-md-5">
+            <div class="product__image">
+              <img src="img/product-image.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-12 col-md-7">
+            <form class="ms2_form msoptionsprice-product d-flex flex-column h-100" method="post">
+              <input type="hidden" name="id" value="286">
+              <table class="table table-borderless mb-3 mb-lg-4">
+                <tbody>
+                  <tr>
+                    <th class="w-25">Вес, кг</th>
+                    <td>13</td>
+                  </tr>
+                  <tr>
+                    <th class="w-25">Высота, мм</th>
+                    <td>101</td>
+                  </tr>
+                  <tr>
+                    <th class="w-25">Ширина, мм</th>
+                    <td>31</td>
+                  </tr>
+                  <tr>
+                    <th class="w-25">Глубина, мм</th>
+                    <td>30</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div class="d-flex align-items-center flex-wrap product-options">
+              </div>
+              <div itemprop="offers" class="mt-auto" itemscope="" itemtype="http://schema.org/Offer">
+
+                <div class="product__quantity">
+                  <div class="stepper js-spinner">
+                    <input type="number" name="count" min="1" max="99" step="1" value="1" id="product_price" class="stepper__input">
+                    <div class="stepper__controls">
+                      <button type="button" spinner-button="down">−</button>
+                      <button type="button" spinner-button="up">+</button>
+                    </div>
+                  </div>
+                  <div class="mr-3 mb-2 mb-lg-0">
+                    <div class="product__price flex-shrink-0">
+                      <span itemprop="price" class="msoptionsprice-cost msoptionsprice-286">2 900</span>
+                      <span>₽</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="d-flex">
+                  <button type="submit" name="ms2_action" value="cart/add" class="btn btn-outline-red mr-3 mb-3 mb-lg-0" onclick="yaCounter51847604.reachGoal('addToCart'); return true;">
+                  В корзину
+                  </button>
+
+                  <button type="button" name="buyNow" class="btn btn-outline-gray mb-3 mb-md-0 js-popup-trigger mb-md-3 mb-lg-0" data-mfp-src="#quickOrderPopup" onclick="yaCounter51847604.reachGoal('buyNow'); return true;">
+                    Купить в один клик
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-12 mt-md-5">
+            <button type="button" class="btn btn-outline-gray js-popup-trigger mb-3 mb-md-0" data-mfp-src="#callBackPopup" onclick="yaCounter51847604.reachGoal('needQuote'); return true;">
+              Нужна консультация
+            </button>
+          </div>
+        </div>
+      </div>
+    </article>
+    <section class="sell-section pt-0">
+      <div class="container">
+        <div class="tab tab--product">
+          <ul class="nav nav-tabs flex-wrap flex-lg-nowrap mb-5" id="reviewsTab" role="tablist">
+            <li class="nav-item mb-0 mr-4">
+              <a class="nav-link position-relative py-md-3 pr-md-4 border-0 rounded-0 active" data-toggle="tab" href="#tab-01" role="tab" aria-controls="vk" aria-selected="true">Оплата</a>
+            </li>
+            <li class="nav-item mb-0 mr-4">
+              <a class="nav-link position-relative py-md-3 pr-md-4 border-0 rounded-0" data-toggle="tab" href="#tab-02" role="tab" aria-controls="fb" aria-selected="false">Доставка</a>
+            </li>
+            <li class="nav-item mb-0 mr-4">
+              <a class="nav-link position-relative py-md-3 pr-md-4 border-0 rounded-0" data-toggle="tab" href="#tab-03" role="tab" aria-controls="fb" aria-selected="false">Обмен и возврат</a>
+            </li>
+            <li class="nav-item mb-0 mr-4">
+              <a class="nav-link position-relative py-md-3 pr-md-4 border-0 rounded-0" data-toggle="tab" href="#tab-04" role="tab" aria-controls="fb" aria-selected="false">Гарантийные обязательства</a>
+            </li>
+            <li class="nav-item mb-0 mr-4">
+              <a class="nav-link position-relative py-md-3 pr-md-4 border-0 rounded-0" data-toggle="tab" href="#tab-05" role="tab" aria-controls="fb" aria-selected="false">Сертификаты</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="reviewsTabContent">
+            <div class="tab-pane fade show active" id="tab-01" role="tabpanel" aria-labelledby="vk-tab">
+              <div class="row">
+                <div class="col-lg-6">
+                  <p>Базовый комплект гардеробной системы Титан - GS - 350S - это готовое решение для квартиры, дачи, гаража, обеспечивающее удобное хранение вещей. В комплект входят несущие рельсы и навесные направляющие, полки, штанги, аксессуары, крепежные элементы. Можно докупить множество дополнительных компонентов для гардеробной системы.</p>
+                  <p>Преимущества гардеробной системы Титан - GS - 350S:</p>
+                  <p>Простая и надежная конструкция;
+                    Эргономичная и удобная система хранения;
+                    Простая сборка и установка.</p>
+                </div>
+                <div class="col-lg-6">
+                  <b>Комплектация:</b>
+                  <p>
+                    1 рельса для крепления стоек (1000 мм.)<br>
+                    4 стойки для установки кронштейнов (1025 мм.)<br>
+                    6 кронштейнов для размещения сеточных полок (335 мм./435 мм.)<br>
+                    2 кронштейна для перекладины<br>
+                    3 сеточные полки (306х903 мм./406х903 мм)<br>
+                    1 перекладина для вешалок (940 мм.)<br>
+                    1 комплект торцевых заглушек для перекладины<br>
+                    РАЗМЕР УПАКОВКИ (ВХШХГ):<br>
+                    1040x358x65 мм./1040x458x65 мм.<br>
+                    РАЗМЕР В СБОРЕ (ВХШХГ):<br>
+                    1000x2070x350 мм./1000x2070x450 мм.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="tab-02" role="tabpanel" aria-labelledby="fb-tab">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem unde officiis, iusto nostrum quos eligendi reiciendis praesentium voluptatum perspiciatis facilis, mollitia, voluptates quo at aspernatur! Sit rem repellat amet fuga!</p>
+            </div>
+            <div class="tab-pane fade" id="tab-03" role="tabpanel" aria-labelledby="fb-tab">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem unde officiis, iusto nostrum quos eligendi reiciendis praesentium voluptatum perspiciatis facilis, mollitia, voluptates quo at aspernatur! Sit rem repellat amet fuga!</p>
+            </div>
+            <div class="tab-pane fade" id="tab-04" role="tabpanel" aria-labelledby="fb-tab">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem unde officiis, iusto nostrum quos eligendi reiciendis praesentium voluptatum perspiciatis facilis, mollitia, voluptates quo at aspernatur! Sit rem repellat amet fuga!</p>
+            </div>
+            <div class="tab-pane fade" id="tab-05" role="tabpanel" aria-labelledby="fb-tab">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem unde officiis, iusto nostrum quos eligendi reiciendis praesentium voluptatum perspiciatis facilis, mollitia, voluptates quo at aspernatur! Sit rem repellat amet fuga!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sell-section bg-light">
+      <div class="container">
+        <ul class="count-list row">
+          <li class="col-lg-6">
+            <div>
+              <h5>3500 ₽</h5>
+              <p>Средняя цена на этот товар в <br> Санкт-Петербурге. У нас – дешевле!</p>
+            </div>
+          </li>
+          <li class="col-lg-6">
+            <div>
+              <h5>Бесплатная доставка</h5>
+              <p>При заказе от 20 000₽. Стоимость доставки при заказе <br> до 20 тыс., всего - 500₽ (самая выгодная по городу)</p>
+            </div>
+          </li>
+          <li class="col-lg-6">
+            <div>
+              <h5>Лучшие цены</h5>
+              <p>Нашли дешевле? Позвоните нам и мы <br> сделаем предложение еще выгоднее</p>
+            </div>
+          </li>
+          <li class="col-lg-6">
+            <div>
+              <h5>Гарантия качества</h5>
+              <p>Гарантия производителя – 10 лет</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="sell-section bg-danger">
+      <header class="sell-section__header">
+        <div class="container">
+          <h1 class="sell-section__heading">Как мы работаем</h1>
+        </div>
+      </header>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <h5>Оформляете заказ</h5>
+            <p>На нашем сайте</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5>Специалист связывается</h5>
+            <p>и утверждает детали заказа</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5>Мы доставляем</h5>
+            <p>заказ по указанному адресу</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5>И устанавливаем</h5>
+            <p>мебель</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sell-section">
+      <header class="sell-section__header">
+        <div class="container">
+          <h1 class="sell-section__heading">Преимущества</h1>
+        </div>
+      </header>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <h5>Собственный склад</h5>
+            <p>Оборудование всегда в наличии в Санкт-Иетербурге</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5>Call-center</h5>
+            <p>Оперативно обрабатывает ваши заявки</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5>Бесплатная доставка</h5>
+            <p>При суммарной стоимости заказа свыше 20 000</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5>Изготовим на заказ</h5>
+            <p>Сделаем на заказ по эскизам заказчика!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="sell-section">
+      <header class="sell-section__header mb-4">
+        <div class="container">
+          <div class="d-flex flex-wrap flex-md-nowrap align-items-center">
+            <h1 class="sell-section__heading mr-auto">Выберите одну из готовых схем</h1>
+            <div class="btn btn-outline-red">Смотреть все</div>
+          </div>
+        </div>
+      </header>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="prod-card">
+              <div class="prod-card__img-wrap">
+                <a href="#">
+                  <img src="https://stillage.pro/assets/components/phpthumbof/cache/12197.970.7a111d3ba6b87f049bd57b136b71c8da.jpg" alt="">
+                </a>
+              </div>
+              <div class="prod-card__body">
+                <div class="prod-card__name"><a href="#">Гардеробная система ТИТАН - GS - 450S</a></div>
+                <ul class="prod-card__info">
+                  <li>Высота, мм 101</li>
+                  <li>Ширина, мм 31</li>
+                  <li>Глубина, мм 30</li>
+                </ul>
+                <div class="prod-card__action">
+                  <a href="#" class="prod-card__link">Хочу такую же</a>
+                  <div class="prod-card__price">3200 ₽</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="prod-card">
+              <div class="prod-card__img-wrap">
+                <a href="#">
+                  <img src="https://stillage.pro/assets/components/phpthumbof/cache/12197.970.7a111d3ba6b87f049bd57b136b71c8da.jpg" alt="">
+                </a>
+              </div>
+              <div class="prod-card__body">
+                <div class="prod-card__name"><a href="#">Гардеробная система ТИТАН - GS - 450S</a></div>
+                <ul class="prod-card__info">
+                  <li>Высота, мм 101</li>
+                  <li>Ширина, мм 31</li>
+                  <li>Глубина, мм 30</li>
+                </ul>
+                <div class="prod-card__action">
+                  <a href="#" class="prod-card__link">Хочу такую же</a>
+                  <div class="prod-card__price">3200 ₽</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="prod-card">
+              <div class="prod-card__img-wrap">
+                <a href="#">
+                  <img src="https://stillage.pro/assets/components/phpthumbof/cache/12197.970.7a111d3ba6b87f049bd57b136b71c8da.jpg" alt="">
+                </a>
+              </div>
+              <div class="prod-card__body">
+                <div class="prod-card__name"><a href="#">Гардеробная система ТИТАН - GS - 450S</a></div>
+                <ul class="prod-card__info">
+                  <li>Высота, мм 101</li>
+                  <li>Ширина, мм 31</li>
+                  <li>Глубина, мм 30</li>
+                </ul>
+                <div class="prod-card__action">
+                  <a href="#" class="prod-card__link">Хочу такую же</a>
+                  <div class="prod-card__price">3200 ₽</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="prod-card">
+              <div class="prod-card__img-wrap">
+                <a href="#">
+                  <img src="https://stillage.pro/assets/components/phpthumbof/cache/12197.970.7a111d3ba6b87f049bd57b136b71c8da.jpg" alt="">
+                </a>
+              </div>
+              <div class="prod-card__body">
+                <div class="prod-card__name"><a href="#">Гардеробная система ТИТАН - GS - 450S</a></div>
+                <ul class="prod-card__info">
+                  <li>Высота, мм 101</li>
+                  <li>Ширина, мм 31</li>
+                  <li>Глубина, мм 30</li>
+                </ul>
+                <div class="prod-card__action">
+                  <a href="#" class="prod-card__link">Хочу такую же</a>
+                  <div class="prod-card__price">3200 ₽</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Selling -->
+    <!-- Map -->
+    <section class="position-relative">
+      <div class="yamap position-relative">
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Add70d2f4d02447698a7e9eff5c449d20ddda9190a3cf2d3fee698ef1d6b95deb&amp;width=100%25&amp;height=500&amp;lang=ru_RU&amp;scroll=false"></script>
+      </div>
+    </section>
+    <!-- /Map -->
+    <!-- Site footer -->
+    <footer id="siteFooter" class="site-footer">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-7 col-sm-5 col-md-4 col-lg-3 align-items-center d-flex py-3 py-lg-4">
+            <a href="/">
+              <img src="/img/logo.png" alt="" class="site-header__logo img-fluid">
+            </a>
+            <div class="top-bar__side-line ml-auto d-none d-lg-block"></div>
+          </div>
+          <div class="col-12 col-lg-4 d-none d-lg-block py-lg-4 site-header__work-info">
+            <div>
+              <i class="fas fa-map-marker-alt mr-2 mt-0 text-center"></i><span>СПб, Боровая 47, офис 14</span>
+            </div>
+            <div>
+              <i class="fas fa-clock mr-2 mt-0 text-center"></i><span>Пн-Вс с 9:00 до 21:00</span>
+            </div>
+          </div>
+          <div class="d-none d-sm-flex flex-column ml-auto p-3 p-lg-4 site-header__contacts-block w-auto">
+            <div class="site-header__tagline d-flex h5 mb-0">
+              <i class="fas fa-mobile text-danger mr-2"></i>
+              <div class="d-flex flex-column">
+                <span>8 (981) <b>786-05-31</b></span>
+                <span>8 (800) <b>786-05-31</b></span>
+              </div>
+            </div>
+          </div>
+          <div class="col-5 col-sm-2 col-lg-1 p-3 p-lg-4 d-flex align-items-center">
+            <button type="button" class="bg-transparent border-0 h3 js-mobile-nav-trigger mb-0 ml-auto py-0">
+              <i class="fas fa-equals"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="site-footer__copyblock py-2 py-md-3">
+        <p class="text-center mb-0 site-header__work-info">
+          Разработка сайта – <a href="https://evomedia.pro" title="Разработка адаптивных сайтов" class="text-danger">eUI</a>
+        </p>
+      </div> -->
+    </footer>
+    <!-- /Site footer -->
+  </main>
+  <!-- /Sections -->
+  <!-- Menu -->
+  <nav class="mobile-menu fixed-top h-100 p-4 bg-primary js-mobile-menu">
+    <div class="mb-2 mobile-menu__logo">
+      <a href="/" class="d-block">
+        <img src="/img/logo_light.png" alt="" class="img-fluid">
+      </a>
+    </div>
+    <ul class="mb-2 nav social">
+      <li class="nav-item">
+        <a class="nav-link social__link pl-0" href="https://vk.com/autoguruspb">
+          <i class="fab fa-vk"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link social__link" href="https://instagram.com/autoguruspb/">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link social__link" href="#">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link social__link" href="#">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+    </ul>
+    <button type="button" class="mobile-menu__close btn-reset text-white position-absolute js-mobile-menu__close">
+      <i class="fas fa-times fa-2x"></i>
+    </button>
+    <ul class="p-0 list-unstyled text-uppercase font-weight-bold">
+      <li class="mobile-menu__item py-2">
+        <a class="mobile-menu__link py-2 w-100" href="/">Главная</a>
+      </li>
+      <li class="mobile-menu__item py-2">
+        <a class="mobile-menu__link py-2 w-100" href="/catalog/">Каталог продукции</a>
+      </li>
+      <li class="mobile-menu__item py-2">
+        <a class="mobile-menu__link py-2 w-100" href="#">Распродажа</a>
+      </li>
+      <li class="mobile-menu__item py-2">
+        <a class="mobile-menu__link py-2 w-100" href="#">БУ стеллажи</a>
+      </li>
+      <li class="mobile-menu__item py-2">
+        <a class="mobile-menu__link py-2 w-100" href="#">О компании</a>
+      </li>
+      <li class="mobile-menu__item py-2">
+        <a class="mobile-menu__link py-2 w-100" href="#">Новости</a>
+      </li>
+      <li class="mobile-menu__item py-2">
+        <a class="mobile-menu__link py-2 w-100" href="#">Контакты</a>
+      </li>
+    </ul>
+    <a href="mailto:zakaz@gbr-group.ru" class="h5 mb-0 mx-xl-auto ml-auto d-block mb-1">
+      <i class="fas fa-envelope"></i> konkis178@ya.ru
+    </a>
+    <div class="align-items-center d-none d-flex">
+      <a href="tel:+7 (981) 786-05-31" class="h5 mb-0 mr-3 text-white">+7 (981) 786-05-31</a>
+      <ul class="social nav">
+        <li class="nav-item">
+          <a class="nav-link social__link pl-0" href="viber://chat?number=79817860531">
+            <i class="fab fa-viber"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link social__link pl-0" href="tg://resolve?phone=79817860531">
+            <i class="fab fa-telegram"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link social__link pl-0 pr-0" href="https://api.whatsapp.com/send?phone=79817860531">
+            <i class="fab fa-whatsapp"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- /Menu -->
+  <!-- Call back popup -->
+  <div class="card popup border-0 popup_narrow mx-auto position-relative zoom-anim-dialog mfp-hide" id="callBackPopup">
+    <div class="card-body">
+      <h4 class="popup__title mb-3">Обратный звонок</h4>
+      <form action="#">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Имя">
+        </div>
+        <div class="form-group">
+          <input type="tel" class="form-control" placeholder="+7(999)-999-99-99">
+        </div>
+        <input type="hidden" name="subject" value="Консультация по [[*pagetitle]]">
+        <input type="hidden" name="options">
+        <input type="hidden" name="price">
+        <button class="btn btn-primary btn-block mb-3" type="submit">Отправить</button>
+        <p class="small mb-0 text-muted">Нажимая "Отправить", Вы соглашаетесь на обработку своих персональных данных.</p>
+      </form>
+    </div>
+  </div>
+  <!-- /Call back popup -->
+  <!-- Cart popup -->
+  <div class="card popup border-0 popup_mid popup-cart mx-auto position-relative zoom-anim-dialog mfp-hide" id="cartPopup">
+    <div class="card-body">
+      <h4 class="popup__title mb-3 font-weight-bold">Корзина</h4>
+      <div class="cart-item d-flex mb-3">
+        <div class="cart-item__thumb">
+          <img src="//placehold.it/50/50" alt="" class="img-fluid">
+        </div>
+        <div class="cart-item__descr mx-3">
+          <a href="#">
+            <h5 class="cart-item__title mb-0">Стеллаж STF 200x2000x1000</h5>
+          </a>
+          <span class="cart-item__price text-muted">
+            <span>35 000</span> ₽
+          </span>
+        </div>
+        <button class="cart-item__remove bg-transparent border-0 text-muted ml-auto" title="Удалить">
+          <i class="fas fa-trash"></i>
+        </button>
+      </div>
+      <hr>
+      <div class="d-flex align-items-center">
+        <span class="cart-item__total h2 font-weight-bold text-muted mr-3 mb-0">35 000 ₽</span>
+        <a href="/cart.html" class="btn btn-primary ml-auto">Оформить заказ</a>
+      </div>
+    </div>
+  </div>
+  <!-- /Cart popup -->
+  <!-- JavaScript-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  @@include('_include/page_bottom.html')
+</body>
+
+</html>
