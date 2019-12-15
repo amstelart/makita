@@ -157,11 +157,10 @@ gulp.task('copy:css', function(callback) {
   }
 });
 
-// Копирование изображений
 gulp.task('copy:img', function () {
   console.log('---------- Копирование изображений');
-  return gulp.src(lists.img)
-    .pipe(newer(dirs.buildPath + '/img'))  // оставить в потоке только изменившиеся файлы
+  return gulp.src(dirs.srcPath + '/img/**/*')
+    .pipe(newer(dirs.buildPath + '/img/**/*'))  // оставить в потоке только изменившиеся файлы
     .pipe(size({
       title: 'Размер',
       showFiles: true,

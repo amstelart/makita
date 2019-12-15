@@ -61,7 +61,7 @@ jQuery(document).ready(function ($) {
 			}
 		});
 
-		// конец добавил 
+		// конец добавил
 	}
 
 
@@ -213,7 +213,7 @@ jQuery(document).ready(function ($) {
 
 
 	hiddenSlider();
-	// табы  . 
+	// табы  .
 	function tabscostume(tab) {
 		$('.' + tab + '__caption').on('click', '.' + tab + '__btn:not(.active)', function (e) {
 			$(this)
@@ -263,7 +263,7 @@ jQuery(document).ready(function ($) {
 		responsive: [{
 				breakpoint: 1299,
 				settings: {
-					slidesToShow: 6,
+					slidesToShow: 5,
 				}
 			},
 
@@ -598,11 +598,11 @@ jQuery(document).ready(function ($) {
 	//  })
 	// /табы на радиокнопках
 
-	//  аккордион 
+	//  аккордион
 	$(".accordion__toggle-btn").click(function () {
 		$(this).toggleClass('active').next().slideToggle().toggleClass('active');
 	})
-	//  /аккордион 
+	//  /аккордион
 
 
 	$('.btn-tab-js').click(function (e) {
@@ -716,7 +716,7 @@ jQuery(document).ready(function ($) {
 		// prevArrow: arrr2,
 		// nextArrow: arrl2,
 	});
-	
+
 	// var swiper = new Swiper('.s-compare__slider--js', {
 	// 	slidesPerView: 'auto',
 	// 	// spaceBetween: 30,
@@ -758,7 +758,7 @@ jQuery(document).ready(function ($) {
 	// подсветка при наведении пуктов в сравнении
 	$('.s-compare__group--js').hover(function () {
 		var theq = $(this).index();
-	 
+
 		// $(this).toggleClass('hover');
 		$(".s-compare__slide").each(function () {
 			$(this).find('.s-compare__group--js').eq(theq).toggleClass('hover');
@@ -775,5 +775,5 @@ jQuery(document).ready(function ($) {
 
 		return false;
 	});
- 
+
 });
